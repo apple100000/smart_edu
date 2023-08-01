@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <title>병배가 꿈꾸는 삶</title>
+    <meta name="description" content="병배가 꿈꾸는 삶에 대한 사이트"/>
+    <meta name="author" content="Raymond"/>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- OG (Open Graph Data) -->
+    <meta property="og:title" content="병배가 꿈꾸는 삶" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://apple100000.github.io/portfolio_new/" />
+    <meta property="og:image" content="https://apple100000.github.io/portfolio_new/images/og.webp" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1fbd5100da.js" crossorigin="anonymous"></script>
+    <!-- Typeit -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Javascript -->
+    <script type="module" src="src/main.js" defer></script>
+    <script type="module" src="src/projects.js" defer></script>
+    <script type="module" src="src/active_menu.js" defer></script>
+    <!-- <script type="module" src="src/type.js" defer></script> -->
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo__img" src="images/favicon.ico" alt="logo">
+            <h1 class="header__logo__title"><a href="#">박병배선생님</a></h1>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li><a class="header__menu__item active" href="#home">홈</a></li>
+                <li><a class="header__menu__item" href="#about">소개</a></li>
+                <li><a class="header__menu__item" href="#skills">특징</a></li>
+                <li><a class="header__menu__item" href="#work">꿈을 위해 할 일</a></li>
+                <li><a class="header__menu__item" href="#testimonial">닮고싶은 인물</a></li>
+                <li><a class="header__menu__item" href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+        <button class="header__toggle" aria-label="navigation menu toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Home -->
+        <section id="home">
+            <div class="home__container">
+                <img class="home__avatar" src="images/pictureofme.jpg" alt="BB's profile">
+                <h2 class="home__title" aria-label="안녕하세요. 병배가 꿈꾸는 삶.">
+                    안녕하세요. <br/>병배가 
+                    <strong class="home__title--strong">꿈꾸는 삶</strong>을 소개합니다.
+                </h2>
+                <p class="home__description">생생하게 꿈꾸면 현실이 된다.</p>
+                <a class="home__contact" href="#contact">연락하기</a>
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about" class="section max-container">
+            <h2 class="title">소개</h2>
+            <p class="description">
+                나는 세상에서 제일 자유로운 사람이 되는 것이 꿈입니다.<br>
+                내게 주어진 삶을 즐거운 기억으로 가득 채우는 것이 꿈입니다.<br>
+                내가 꿈꾸는 삶을 소개합니다.
+            </p>
+            <ul class="majors">
+                <li class="major">
+                    <i class="fa-solid fa-person-running major__icon"></i>
+                    <p class="major__title">세계 5대 마라톤 대회 <br>풀코스 완주</p>
+                    <p>보스턴 도쿄 베를린 파리 런던 서울 로마 뉴욕 로스엔젤레스</p>
+                </li>
+                <li class="major">
+                    <i class="fa-solid fa-earth-americas major__icon"></i>
+                    <p class="major__title">세계 주요 도시에서 살아보기</p>
+                    <p> LA, NY, Tokyo, Paris, London, Roma, Belin and so on......</p>
+                </li>
+                <li class="major">
+                    <i class="fa-solid fa-computer major__icon"></i>
+                    <p class="major__title">코딩으로 신세계 창조하기</p>
+                    <p> Scratch, Entry, Python, HTML, CSS, JavaScript, Unity and so on......</p>
+                </li>
+            </ul>
+            <ul class="jobs">
+                <li class="job">
+                <img class="job__logo" src="images/jobs/smalljoblogo.png" alt="Apple">
+                <div>
+                    <p class="job__name">애플의 소프트웨어 기술자로 근무.</p>
+                    <p class="job__period">2019 Oct - 2021 Dec</p>
+                </div>
+                </li>
+                <li class="job">
+                <img class="job__logo" src="images/jobs/google.png" alt="">
+                <div>
+                    <p class="job__name">구글의 디자인, 소프트웨어 총괄 디렉터로 근무.</p>
+                    <p class="job__period">2022 Jan - Until now</p>
+                </div>
+                </li>
+            </ul>
+
+        </section>
+        <!-- Skills -->
+        <section id="skills" class="section ">
+            <h2 class="title">특징</h2>
+            <p class="description">나의 학교 생활 & 좋아하는 물건 & 특성</p>
+            <p>나는 공부를 잘하는 편입니다. 운동도 잘하는 편입니다.<br> 
+            매력적이어서 인기도 많은 편입니다. 친구도 많은 편입니다.<br>
+            행운이 많아서 별명이 럭키가이입니다. 인성도 훌륭합니다.
+            </p>
+            <div class="max-container">
+                <div class="skills">
+                    <section class="skills__coding">
+                        <h3 class="skills__title">나의 학교 생활</h3>
+                        <ul>
+                            <li class="bar">
+                                <div class="bar__metadata"><span>공부</span><span>90%</span></div>
+                                <div class="bar__bg"><div class="bar__value" style="width: 90%"></div></div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata"><span>운동</span><span>87%</span></div>
+                                <div class="bar__bg"><div class="bar__value" style="width: 87%"></div></div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata"><span>매력</span><span>93%</span></div>
+                                <div class="bar__bg"><div class="bar__value" style="width: 93%"></div></div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata"><span>교우관계</span><span>80%</span></div>
+                                <div class="bar__bg"><div class="bar__value" style="width: 80%"></div></div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata"><span>행운</span><span>100%</span></div>
+                                <div class="bar__bg"><div class="bar__value" style="width: 100%"></div></div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata"><span>인성</span><span>90%</span></div>
+                                <div class="bar__bg"><div class="bar__value" style="width: 90%"></div></div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="skills__tools">
+                        <h3 class="skills__title">좋아하는 물건</h3>
+                        <ul>
+                            <li>나이키 러닝화</li>
+                            <li>맥북 프로</li>
+                            <li>BMW x7</li>
+                            <li>가민 시계</li>
+                            <li>아이폰</li>
+                        </ul>
+                    </section>
+                    <section class="skills__etc">
+                        <h3 class="skills__title">특성</h3>
+                        <ul>
+                            <li>초긍정 마인드셋</li>
+                            <li>한계가 없는 체력</li>
+                            <li>끝까지 가는 집중력</li>
+                            <li>행운의 사나이</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!-- Work -->
+        <section id="work" class="section">
+            <div class="max-container">
+                <h2 class="title">꿈을 위해 할 일</h2>
+            <p class="description">꿈꾸는 삶을 위해 필요한 것들</p>
+            <ul class="categories">
+                <li>
+                    <button class="category category--selected" data-category="all">All <span class="category__count">8</span></button>
+                </li>
+                <li>
+                    <button class="category" data-category="marathon">마라톤 <span class="category__count">3</span></button>
+                </li>
+                <li>
+                    <button class="category" data-category="language">외국 살기 <span class="category__count">2</span></button>
+                </li>
+                <li>
+                    <button class="category" data-category="coding">코딩 <span class="category__count">3</span></button>
+                </li>
+            </ul>
+            <ul class="projects">
+                <li class="project" data-type="marathon">
+                    <a href="#" target="_blank">
+                        <img src="images/projects/marathon1.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
+                            <p>매일 새벽 달리기 10km</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project" data-type="marathon">
+                    <a href="#" target="_blank">
+                        <img src="images/projects/marathon2.jpg" alt="project2" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #2</h3>
+                            <p>주말 LSD 훈련 30km</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project" data-type="marathon">
+                    <a href="#" target="_blank">
+                        <img src="images/projects/marathon3.jpg" alt="project3" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #3</h3>
+                            <p>인터벌 훈련 10km</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project" data-type="language">
+                    <a href="#" target="_blank">
+                        <img src="images/projects/LosAngeles.jpg" alt="project4" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #4</h3>
+                            <p>외국어 책 읽기</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project" data-type="language">
+                    <a href="#" target="_blank">
+                        <img src="images/projects/Tokyo.jpg" alt="project5" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #5</h3>
+                            <p>외국인 친구 만들기</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project" data-type="coding">
+                    <a href="#" target="_blank">
+                        <img src="images/projects/coding1.jpg" alt="project6" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #6</h3>
+                            <p>웹페이지 만들기</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project" data-type="coding">
+                    <a href="#" target="_blank">
+                        <img src="images/projects/coding3.webp" alt="project7" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #7</h3>
+                            <p>비디오 게임 만들기</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="project" data-type="coding">
+                    <a href="#" target="_blank">
+                        <img src="images/projects/coding2.jpg" alt="project8" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #8</h3>
+                            <p>온라인 가상 세계 창조하기</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </section>
+        <!-- Testimonials -->
+        <section id="testimonial" class="section max-container">
+            <h2 class="title">닮고 싶은 인물</h2>
+            <p class="description">내게 영감을 주는 사람들</p>
+            <ul class="testimonials">
+                <li class="testimonial"><img src="images/testimonials/son.jpg" alt="people1" class="testimonial__img">
+                    <div class="testimonial__bubble">
+                        <p>축구를 정말 잘하고 언제나 친절한 모습을 닮고 싶다.
+                        손흥민 선수는 다른 선수들과 친하게 지내고 항상 성실하다.
+                        나도 손흥민 선수처럼 성격이 좋고 인기도 많고 축구도 잘하는 사람이 되고 싶다.
+                        </p>
+                        <p><a href="#" class="testimonial__bubble__name">손흥민 </a> /토트넘</p>
+                    </div>
+                </li>
+                <li class="testimonial"><img src="images/testimonials/elon.jpg" alt="people2" class="testimonial__img">
+                    <div class="testimonial__bubble">
+                        <p>테슬라 회사를 만들어서 전기차를 유행하게 했다.
+                        스페이스 엑스 회사를 만들어서 화성으로 가는 로켓을 만들고 있다.
+                        나도 화성에 가서 화성 식민지를 개척하는데 참여하고 싶다.
+                        화성에 가서 외계인이 있을지도 모르지만 친구가 되면 좋겠다.
+                        </p>
+                        <p><a href="#" class="testimonial__bubble__name">일론 머스크 </a> /Tesla</p>
+                    </div></li>
+                <li class="testimonial"><img src="images/testimonials/bak.jpg" alt="people3" class="testimonial__img">
+                    <div class="testimonial__bubble">
+                        <p>백종원 아저씨는 요리를 참 잘하고 재미있다.
+                        백종원 아저씨처럼 맛있는 음식을 만들어서 사람들을 즐겁게 해주고 싶다.
+                        골목식당 같은 방송을 보면 백종원 아저씨가 식당 사장님들한테 잔소리를 한다.
+                        싫어하는 게 아니라 잘 되길 바라는 잔소리라고 한다.
+                        나도 주변 사람들에게 잘 되길 바라는 잔소리를 하고 싶다.
+                        </p>
+                        <p><a href="#" class="testimonial__bubble__name">백종원</a> /더본코리아</p>
+                    </div></li>
+            </ul>
+
+        </section>
+        <!-- Arrow up -->
+        <aside id="contact">
+            <a class="arrow-up" href="#home" title="back to top"><i class="fa-solid fa-arrow-up"></i></a>
+        </aside>
+    </main>
+    <!-- Footer -->
+    <footer id="contact" class="section">
+        <div class="max-container">
+            <h2 class="title">문의 사항</h2>
+        <p class="description">lkj768@naver.com</p>
+        <ul class="contact__links">
+            <li><a
+                class="contact__link"
+                href="https://github.com/" 
+                target="_blank"
+                title="my github link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li><a
+                class="contact__link"
+                href="https://github.com/" 
+                target="_blank"
+                title="my linkedin link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+        <p>Danjae Elemantary School in Chung-ju</p>
+        </div>
+    </footer>
+</body>
+</html>
